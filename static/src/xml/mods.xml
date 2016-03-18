@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+	<t t-extend="AppSwitcher" >
+		<t t-jquery=".o_application_switcher_footer" t-operation="replace">
+			<div class="o_application_switcher_footer">
+				<img src="/steersman_app_switcher/static/src/img/steersman-logo.png" alt="Steersman Company"/>
+			</div>
+		</t>
+	</t>
+</templates>
