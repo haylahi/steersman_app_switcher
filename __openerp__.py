@@ -6,7 +6,6 @@
 	'website': '//steersman.works',
 	'depends': ['web'],
 	'data': ['data/web.assets_backend.xml'],
-	'qweb': ['static/src/xml/*.xml'],
 	'application': False,
 	'installable': True,
 	'auto_install': True
