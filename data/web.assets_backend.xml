@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo><data>
-	<record id="view_app_switcher_assets" model="ir.ui.view">
-		<field name="name">app switcher assets</field>
-		<field name="inherit_id" ref="web.assets_backend"></field>
-		<field name="arch" type="xml">
-			<data name="app switcher assets" inherit_id="web.assets_backend">
-				<xpath expr="." position="inside">
-					<link rel="stylesheet" href="/steersman_app_switcher/static/src/less/web_assets.less"/>
-					<script type="text/javascript" src="/steersman_app_switcher/static/src/js/mods.js"></script>
-				</xpath>
-			</data>
-		</field>
-	</record>
+	<template id="steersman_app_switcher_assets" inherit_id="web.assets_backend">
+		<xpath expr="." position="inside">
+			<link rel="stylesheet" href="/steersman_app_switcher/static/src/less/web_assets.less"/>
+			<script type="text/javascript" src="/steersman_app_switcher/static/src/js/mods.js"></script>
+		</xpath>
+	</template>
 </data></odoo>
